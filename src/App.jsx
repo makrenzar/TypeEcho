@@ -18,14 +18,12 @@ function App() {
   return (
     <>
       <div className="min-h-screen flex items-center justify-center bg-white px-6 pt-6 pb-24 relative">
-        {/* Displayed text */}
+
         <div className="flex justify-center w-full">
           <p className={`text-[#434343] text-justify ${getFontSize()} max-w-[700px] whitespace-pre-line leading-tight break-words`}>
             {text}
           </p>
         </div>
-
-        {/* Fixed input at bottom */}
         <input
           type="text"
           placeholder="Type here..."
