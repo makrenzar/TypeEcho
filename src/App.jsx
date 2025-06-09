@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <div className="min-h-screen flex flex-col justify-between bg-white ">
+    <div className="min-h-screen flex flex-col justify-between bg-white p-6">
 
       {/* Displayed text */}
       <div className={`flex-grow flex justify-center ${display} transition-all duration-300`}>
