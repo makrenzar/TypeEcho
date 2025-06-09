@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-    <div className="min-h-screen flex flex-col justify-between bg-white p-6">
+    <div className="min-h-screen flex flex-col justify-between bg-white ">
 
       {/* Displayed text */}
       <div className={`flex-grow flex justify-center ${display} transition-all duration-300`}>
@@ -36,7 +36,11 @@ function App() {
         onChange={(e) => setText(e.target.value)}
         className="text-lg border border-gray-300 rounded-lg px-4 py-2 w-full max-w-[500px] mx-auto focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
+      <p className="text-xs bottom-0 mb-1">Mark Lawrence Zaragoza</p>
     </div>
+
+      
+
     </>
   );
 }
